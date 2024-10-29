@@ -1,0 +1,38 @@
+/* pages/me/me.wxss */
+.container {
+  padding: 20rpx;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+
+.user-info open-data {
+  margin-right: 20rpx;
+}
+
+.section-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.booking-item {
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+.class-name {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.class-time {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #666;
+}

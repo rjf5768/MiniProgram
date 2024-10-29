@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/schedule/schedule",
+    "pages/classDetails/classDetails",
+    "pages/me/me"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "Main",
+        "iconPath": "icons/house.png",
+        "selectedIconPath": "icons/house-active.png"
+      },
+      {
+        "pagePath": "pages/schedule/schedule",
+        "text": "Schedule",
+        "iconPath": "icons/schedule.png",
+        "selectedIconPath": "icons/schedule-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "Me",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user-active.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTitleText": "IDANCER",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f2f2f2",
+    "backgroundTextStyle": "light"
+  },
+  "cloud": true
+}

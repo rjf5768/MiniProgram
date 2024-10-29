@@ -1,0 +1,8 @@
+<!-- pages/main/main.wxml -->
+<view class="container">
+  <view class="logo">
+    <text>IDANCER</text>
+  </view>
+  <image src="/images/background.jpg" class="background-image"></image>
+  <!-- Empty space below -->
+</view>

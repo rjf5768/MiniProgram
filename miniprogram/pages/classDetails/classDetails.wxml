@@ -1,0 +1,25 @@
+<!-- pages/classDetails/classDetails.wxml -->
+<view class="container">
+  <image src="{{class.image}}" class="class-image"></image>
+  <view class="class-info">
+    <text class="class-name">{{class.name}}</text>
+    <text class="class-description">{{class.description}}</text>
+  </view>
+
+  <view class="calendar-container">
+    <picker mode="date" bindchange="onDateChange">
+      <view class="picker">
+        <text>Select Date: </text>
+        <text>{{selectedDate || 'Please select'}}</text>
+      </view>
+    </picker>
+    <picker mode="time" bindchange="onTimeChange">
+      <view class="picker">
+        <text>Select Time: </text>
+        <text>{{selectedTime || 'Please select'}}</text>
+      </view>
+    </picker>
+  </view>
+
+  <button type="primary" bindtap="onSchedule">Schedule Class</button>
+</view>

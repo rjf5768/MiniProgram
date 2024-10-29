@@ -1,0 +1,9 @@
+<!-- pages/schedule/schedule.wxml -->
+<view class="container">
+  <block wx:for="{{classes}}" wx:key="id">
+    <view class="class-item" bindtap="goToClassDetails" data-id="{{item._id}}">
+      <image src="{{item.image}}" class="class-image"></image>
+      <text class="class-name">{{item.name}}</text>
+    </view>
+  </block>
+</view>
